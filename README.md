@@ -1,3 +1,2 @@
 # SimpleRestaurant
 
-Testing Git connection

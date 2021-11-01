@@ -1,0 +1,125 @@
+body {
+  margin: 0%;
+  background-color: #1f2114;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  border: solid 1px black;
+  background-color: #2e2c2c;
+}
+
+#topNavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  border: solid 1px black;
+  background-color: #2e2c2c;
+}
+
+.topNav {
+  display: inline-block;
+  background-color: #1f2114;
+  overflow: hidden;
+  border: solid 1px black;
+  background-color: #2e2c2c;
+}
+
+.topNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #12e500;
+}
+
+.topNav a:hover {
+  background-color: #12e500;
+  color: white;
+}
+
+.topNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #12e500;
+}
+
+.topNav a:hover {
+  background-color: #12e500;
+  color: white;
+}
+
+.topNav a.active {
+  background-color: #12e500;
+  color: white;
+}
+
+#bannerImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #12e500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.63);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.blerb {
+  color: #12e500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px rgba(105, 105, 105, 0.63);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#menuImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

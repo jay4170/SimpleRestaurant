@@ -12,10 +12,10 @@ export var homePageLoad = () => {
     var blerb = document.createElement("h2")
     blerb.textContent = "This is the greatest goddamn restaurant on earth. We use the freshest corpses for our burgers and warpstone condiments are include!"
     blerb.className = "blerb"
-
+    bannerDiv.appendChild(title)
     content.appendChild(bannerDiv)
     bannerDiv.appendChild(bannerImg)
-    bannerDiv.appendChild(title)
+    
     bannerDiv.appendChild(blerb)
 
     var isActive = document.getElementsByClassName("active")

@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 80%;
-  margin:auto;
+  margin: auto;
   border: solid 1px rgb(0, 0, 0);
   background-color: rgb(46, 44, 44);
 }
@@ -14,11 +14,15 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 80%;
-  margin:auto;
+  margin: auto;
   border: solid 1px rgb(0, 0, 0);
   background-color: rgb(46, 44, 44);
 }
-
+.bannerSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .topNav {
   display: inline-block;
   background-color: #1f2114;
@@ -89,4 +93,11 @@ body {
 #menuImg {
   display: flex;
   width: 100%;
+}
+#map {
+  align-self: center;
+  
+  width: 80%;
+  height: 30em;
+  
 }

@@ -1,10 +1,12 @@
+import menu from "./assets/images/menu.jpg"
+
 export var menuPageLoad = () => {
     var content = document.getElementById("content");
     content.replaceChildren()
     var bannerDiv = document.createElement("div")
     bannerDiv.className = "bannerSpace"
     var menuImg = document.createElement("img")
-    menuImg.src = "/images/menu.jpg"
+    menuImg.src = menu
     menuImg.id = "menuImg"
     var title = document.createElement("h1")
     title.textContent = "Skaven's RatBurgers"
